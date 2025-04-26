@@ -1,0 +1,259 @@
+body {
+    
+    background-color: #703ad2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .sec-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+#dark-mode{
+  margin-left: 90%;
+  margin-top: 18px;
+  background-color: #1e1e1e;
+  border: 1px solid white;
+  font-weight: none;
+  
+}
+
+#dark-mode:hover{
+background-color: #342d2d;
+transform: scale(1.05);
+}
+
+  input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #ca1871;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100px;
+    border: 1px solid rgb(200, 152, 8);
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #c72978;
+    transform: scale(1.05);
+  }
+
+  h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    margin-top: 0px;
+  }
+
+  .fa-solid {
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 15px;
+
+  }
+
+  .fa-solid:hover {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    align-items: center;
+    padding: 8px 0;
+    display: flex;
+    background-color: rgb(151, 8, 99);
+    justify-content: space-between;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    width: 78%;
+    margin-left: 10%;
+    margin: 0px 0px 10px 10%;
+  }
+
+
+  .box-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+
+  }
+
+  img {
+    width: 36px;
+    height: 36px;
+    margin: 18px 0px 0px 8px;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  #clock {
+    padding-top: 5px;
+    text-align: center;
+    background-color: #d7d720;
+    width: 7%;
+    height: 24px;
+    color: black;
+    border-radius: 4px;
+    margin-left: 4px;
+    font-size: 16px;
+  }
+
+  #clock:hover{
+    transform: scale(1.05);
+  }
+
+  span {
+    color: white;
+    font-size: 17px;
+  }
+
+  #taskInput {
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 23%;
+    width: 50%;
+    font-size: 17px;
+  }
+
+  @media(max-width:600px) {
+    body {
+      background-color: #703ad2;
+    }
+    #dark-mode{
+      margin-left: 78%;
+      background-color: #1e1e1e;
+      border: 1px solid white;
+      width: 80px;
+      font-size: 10.5px;
+      font-weight: 550;
+      margin-top: 10px;
+      
+    }
+
+    input{
+      padding: 8px;
+      width: 200px;
+      border: 2px solid black;
+      border-radius: 8px;
+      margin: 0px;
+
+    }
+
+    .fa-solid {
+      font-size: 14.5px;
+    }
+
+    button {
+      padding: 8px 12px;
+      margin-left: 0px;
+      background-color: rgb(168, 7, 166);
+      color: white;
+      border-radius: 5px;
+      width: 60px;      
+      font-weight: 600;
+      border: 1px solid rgb(30, 201, 190);
+    }
+
+    h2 {
+      color: white;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      align-items: center;
+      padding: 8px 0;
+      display: flex;
+      background-color: rgb(151, 8, 99);
+      justify-content: space-between;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 6px;
+      color: white;
+      width: 87%;
+      margin-left: 5%;
+    }
+
+    img {
+      width: 35px;
+      height: 35px;
+      margin: 19px 0px 0px 8px;
+    }
+
+    .box-clock {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .remove-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 4px 8px;
+
+    }
+
+    span {
+      text-align: center;
+    }
+
+    #clock {
+      text-decoration: none;
+      padding-top: 5px;
+      text-align: center;
+      background-color: rgb(202, 124, 23);
+      width: 25%;
+      height: 24px;
+      margin-top: 0%;
+      margin-left: 2px;
+      color: white;
+      border-radius: 4px;
+    }
+
+    span {
+      color: white;
+      font-size: 15px;
+    }
+
+    #taskInput {
+      text-align: center;
+      margin-top: 9px;
+      margin-left: 5%;
+      width: 71%;
+    }
+  }

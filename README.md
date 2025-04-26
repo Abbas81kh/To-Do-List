@@ -9,7 +9,6 @@ This project goes beyond basic functionality — it offers a beautiful UI, a dar
 Check it out here: [Live Demo](https://to-do-list-web-app0.netlify.app/)
 
 ## ✨ Features
-
 - **Clean & Minimal UI** – distraction-free design  
 - **Dark Mode Toggle** – switch between light and dark themes  
 - **Real-Time Digital Clock** – displays current time dynamically  
@@ -30,11 +29,14 @@ Check it out here: [Live Demo](https://to-do-list-web-app0.netlify.app/)
 - Handling real-time updates (live clock)  
 - Version control with Git & GitHub  
 
+## ScreenShot Of Project
+![Screenshot 2025-04-26 091415](https://github.com/user-attachments/assets/1b921a4f-c611-4855-a3b4-35ecaa75aefa)
+
 ## 📁 How to Use
 
 1. Download or clone the repository:
 
-git clone https://github.com/yourusername/todo-list-app.git
+git clone https://github.com/Abbas81kh/To-Do-List.git
 
 2. Open the folder.
 3. Double-click on `index.html` to open the app in your browser.
@@ -43,9 +45,10 @@ git clone https://github.com/yourusername/todo-list-app.git
 
 If you have any feedback or want to collaborate, feel free to reach out!
 
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)  
-- [GitHub](https://github.com/yourusername)
+- [LinkedIn](https://www.linkedin.com/in/abbas81khan/)  
+- [GitHub](https://github.com/Abbas81kh/To-Do-List/)
 
 ---
 
 **Give it a star** if you found it helpful!
+love from abbas khan
